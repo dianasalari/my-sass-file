@@ -1,0 +1,83 @@
+*{
+    padding:0;
+    margin:0;
+}
+$background-color:#ece4e4;
+$button-color:#efecf7;
+$pd:15px;
+$second-color:#ebeaec;
+$box-shadow:0 0 5px red;
+@mixin a-text{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+.container{
+    width: 1100px;
+    height: 70px;
+    display: inline-block;
+    .logo{
+        a{
+            img{
+                margin: 15px 1280px;
+            }
+        }
+    }
+    input{
+        width: 780px;
+        box-sizing: border-box;
+        border: 3px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+        background-color: white;
+        background-image: url('image/icons8-search-30.png');
+        background-position: 10px 10px; 
+        background-repeat: no-repeat;
+        padding: 12px 20px 12px 450px;
+        margin: -53px 0px 0px 410px;
+        display: block;
+        
+        
+    }
+    .icon{
+        margin: -45px 32px 0px 148px;
+        width: 250px;
+        display: block;
+        img{
+            width: 25px;
+            height: 25px;
+            margin: 5px;
+        }
+    }
+    .i1{
+        margin: -32px 32px 0px 50px;
+        display: block;
+    }
+}
+.div{
+    display: inline-block;
+    margin: 6px 0px 0px 880px;
+    width: 570px;
+    span{
+        margin: 4px;
+    }
+    img{
+        width:20px ;
+        height: 20px;
+        display:inline-block;
+        padding: 10px;
+        margin-top: 10px;
+    }
+}
+.a{
+    padding:10px 30px ;
+    color: white;
+    margin: -36px 20px;
+    background-color: rgb(77, 226, 176);
+    border-radius: 5px;
+    text-decoration: none;
+    display: block;
+    width: 100px;
+    height: 35px;
+}
